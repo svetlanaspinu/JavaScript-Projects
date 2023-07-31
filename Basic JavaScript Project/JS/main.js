@@ -1,3 +1,3 @@
-window.alert("Goodbye!!")
-
-document.write("I am happy!")
+3+3
+document.write(3+3) // this is a comment//
+ 
