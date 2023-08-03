@@ -33,3 +33,17 @@ function negation_operator() {
     var negative = 50;
     document.getElementById("Math").innerHTML = - negative;
 }
+
+var a = 10;
+a++;
+document.write(a);
+
+var b = 20;
+b--;
+document.write(b); 
+
+document.write(Math.random() * 200);
+
+// Math Object Challenge
+
+Math.round(7.7);
