@@ -1,0 +1,93 @@
+/*style.css*/
+*{
+    box-sizing: border-box;
+}
+
+/*slideshow container*/
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/*hide the images by default*/
+.Images_Slides {
+    display: none;
+}
+
+/* next and prev buttons*/
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: azure;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px;
+    user-select: none;
+}
+
+/*position next button*/
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*colors when hoover the next and prev buttons*/
+.prev:hover,
+.next:hover {
+    background-color: black;
+}
+
+/* caption text*/
+.text {
+    color: bisque;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/*number text for images*/
+.numbertext {
+    color: blanchedalmond;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/*the dots*/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: chocolate;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* animation*/
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
