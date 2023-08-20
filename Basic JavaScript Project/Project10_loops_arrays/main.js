@@ -30,3 +30,12 @@ function Array_Function() {
     Forecast[3] = "snowing";
     document.getElementById("Array").innerHTML = "The weather is amazing. Today is " + Forecast[1] + "."
 }
+
+// using const keyword
+
+function Constant_function() {
+    const Soup_ofthe_day = {soup_1:"tomato soup", soup_2:"carrot soup",soup_3:"mushroom soup"};
+    Soup_ofthe_day.price = "3£";
+    Soup_ofthe_day.quantity = "300ml";
+    document.getElementById("Constant").innerHTML = "Soup of the day is " + Soup_ofthe_day.soup_1 + ", and price is " + Soup_ofthe_day.price + ".";
+}
