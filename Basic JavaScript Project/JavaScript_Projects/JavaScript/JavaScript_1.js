@@ -35,3 +35,9 @@ function Pizza_Function() {
     }
     document.getElementById("switch").innerHTML = pizza;
 }
+
+// getElementsByClassName() Method
+function class_function() {
+    var A = document.getElementsByClassName("Click");
+    A[1].innerHTML = "Something new in here!";
+}
